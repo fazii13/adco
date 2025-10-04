@@ -1,0 +1,19 @@
+.project-gallery {
+    padding: 20px 0;
+  }
+  
+  .gallery-image-container {
+    width: 100%;
+    aspect-ratio: 1; /* Makes all images square */
+    overflow: hidden; /* Ensures no image spills out */
+    position: relative;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures uniform image fitting */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
